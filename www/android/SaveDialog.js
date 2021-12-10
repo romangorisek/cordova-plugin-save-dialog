@@ -22,6 +22,9 @@ let saveFile = (uri, blob) => new Promise((resolve, reject) => {
 });
 
 module.exports = {
+    getPath(type, name = "") {
+        return locateFile(type, name);
+    },
     saveFile(blob, name = "") {
         return keepBlob(blob) // see the “resume” event handler below
             .then(() => locateFile(blob.type, name))
