@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Amphiluke/cordova-plugin-save-dialog.git"
+    "url": "git+https://github.com/romangorisek/cordova-plugin-save-dialog.git"
   },
   "keywords": [
     "cordova",
@@ -19,7 +19,7 @@
   "author": "Amphiluke",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Amphiluke/cordova-plugin-save-dialog/issues"
+    "url": "https://github.com/romangorisek/cordova-plugin-save-dialog/issues"
   },
-  "homepage": "https://github.com/Amphiluke/cordova-plugin-save-dialog#readme"
+  "homepage": "https://github.com/romangorisek/cordova-plugin-save-dialog#readme"
 }
